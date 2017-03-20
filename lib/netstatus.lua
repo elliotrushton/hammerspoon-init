@@ -9,14 +9,22 @@
 NetMenu = hs.menubar.new()
 NetMenu:setTitle("?")
 
+function buildMenu(phrase)
+  local menu_items = {}
+  table.insert( menu_items, { title = phrase })
+  NetMenu:setMenu(menu_items)
+end
+
 function netDown()
     -- Skull & crossbones
     NetMenu:setTitle(hs.utf8.codepointToUTF8("U+2620"))
+    buildMenu("Internet is dead!")
 end
 
 function netUp()
   -- Smiley
   NetMenu:setTitle(hs.utf8.codepointToUTF8("U+263A"))
+  buildMenu("Internet is working!")
 end
 
 hs.network.reachability.internet():setCallback(function(self, flags)
