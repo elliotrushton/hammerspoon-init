@@ -2,6 +2,8 @@
 
 A suite of Lua scripts for [Hammerspoon](https://github.com/Hammerspoon/hammerspoon) that provide functionality and keyboard shortcuts for actions I commonly use.
 
+Inspiration, file structure etc mostly from [SenorProgrammer's init](https://github.com/senorprogrammer/hammerspoon_init).
+
 ## Installation
 
 1. Install [Hammerspoon](https://github.com/Hammerspoon/hammerspoon).
