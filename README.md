@@ -20,3 +20,10 @@ This set of scripts provides the following functionality via Hammerspoon.
 
 ### Menubar status of internet reachability
 * Displays a ☺ in the menubar if the internet is reachable, displays ☠  if it's not reachable.
+
+### Hotkey window resizing
+* `Command-alt-control-left` : Move the active window to take up the left half of the screen
+* `Command-alt-control-right` : Move the active window to take up the right half of the screen
+* `Command-alt-control-up` : Move the active window to take up the top half of the screen
+* `Command-alt-control-down` : Move the active window to take up the bottom half of the screen
+* `Command-alt-control-space` : Move the active window to take up the whole screen
