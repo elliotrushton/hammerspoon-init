@@ -1,7 +1,9 @@
 -- http://www.hammerspoon.org/go/
 
-require "lib.reload"
+require "lib.utilities"
 
+require "lib.reload"
+require "lib.netstatus"
 
 -- Experimental
-require "lib.garmin"
+-- require "lib.garmin"

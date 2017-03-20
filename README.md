@@ -15,3 +15,6 @@ This set of scripts provides the following functionality via Hammerspoon.
 
 ### Hotkey Hammerspoon config reloading
 * `Alt-Shift-h` : reload the hammerspoon config
+
+### Menubar status of internet reachability
+* Displays a ☺ in the menubar if the internet is reachable, displays ☠  if it's not reachable.
